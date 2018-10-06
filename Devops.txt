@@ -1,0 +1,77 @@
+Classroom1 =  ethans@01
+Classroom2 =  ethans@12
+Classroom3 =  ethans@23
+Ethans303 = 
+Elastic compute cloude - EC2
+
+login as : ec2-user
+
+---|---|---
+4	2	1
+read write execute
+
+---
+user,group,other
+
+Serveice - identity and access management - iam
+
+one user can be part of multiple groups. (group cannot be part of other group) - q. what is iam user and group
+user can log in, group cannot.
+
+ssh port - 22 (unix)
+RDP - 3389 (Windows)
+http- 80 https-443
+smtp - 25
+
+security gorups: virtual firewall rules  where we need to define inbound/ outbound rules.
+security group can be applied only EC2 level.
+there is no deny rule.
+
+Load Balancer types
+1. Appln load balancer (for  applications) -- http/https request, OSI layer 7
+2. Network '' (high bandwidth) -- OSI layer 4, tcp
+3. Classic '' (For EC2 Instance) -- OSI layer 4, http/https/tcp
+
+Auto scalling -> based on parameter -> 1.CPU 2. Memory (eg. cpu>80% and for 1 miniute then create instance automatically)
+How can we attached files to automatically created instance?
+
+
+
+
+
+
+
+
+jenkin
+
+Whatever we installed Java/Maven/Jenkin, is it for Ec2 instance each
+Do you have complete diagram which explains the entier process till deployment to production server? (In real case )
+Developer -> check in changes -> GitHub -> Genkin Server-> Selenium -> Prod Server 
+What is real case scenario. Is Jenkin set to check each commit and then build the code or set for periodic check and then build?
+If Yes - what if build is taking 5 mins to build source code?
+How to rollback changes of a user if build fails?
+Are we going to test example with success and failiure notification?
+
+
+
+Create Jenkin job
+|
+Maven - get url from github proj (clone..)
+provide url to jenkin
+
+
+What is upstream and downstream
+
+why 2 jobs required.
+
+
+Master - Slave
+
+
+
+
+
+
+
+
+
